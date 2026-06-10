@@ -1,0 +1,4 @@
+index=main source="C:\Windows\System32\winevt\Logs\Microsoft-Windows-Sysmon%4Operational.evtx" EventCode=3
+| stats dc(DestinationPort) as ports_scanned by SourceIp
+| where ports_scanned > 10
+| sort -ports_scanned
