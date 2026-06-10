@@ -11,8 +11,8 @@ A fully functional SOC home lab demonstrating the complete detection cycle:
 
 Every component mirrors tools used in production SOC environments.
 
-**Built by:** Lalith vardhan Boddala | MSc Cybersecurity  
-**Goal:** Portfolio project for SOC 
+**Built by:** Lalith Vardhan Boddala | MSc Cybersecurity  
+**Goal:** Portfolio project for SOC Analyst L1 Positions
 
 ---
 
@@ -108,15 +108,11 @@ splunk-siem-homelab/
 ├── README.md
 ├── architecture/
 │   └── lab-diagram.png
-├── setup-guides/
-│   ├── 01-splunk-mac-setup.md
-│   ├── 02-sysmon-windows-vm.md
-│   └── 03-splunk-forwarder.md
 ├── detection-rules/
 │   ├── T1110-brute-force.spl
 │   ├── T1110-account-lockout.spl
 │   └── T1046-port-scan.spl
-├── attack-simulations/
+├── attack_simulations/
 │   ├── nmap-port-scan-T1046.md
 │   └── metasploit-smb-T1110.md
 └── screenshots/
