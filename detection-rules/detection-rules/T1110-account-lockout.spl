@@ -1,3 +1,0 @@
-| index=main source="WinEventLog:Security" EventCode=4740
-| table _time, Account_Name, host
-| sort -_time
