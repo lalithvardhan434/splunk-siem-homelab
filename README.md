@@ -11,7 +11,7 @@ A fully functional SOC home lab demonstrating the complete detection cycle:
 
 Every component mirrors tools used in production SOC environments.
 
-**Built by:** Lalith vardhan Boddala | MSc Cybersecurity | Middlesex University Dubai  
+**Built by:** Lalith vardhan Boddala | MSc Cybersecurity  
 **Goal:** Portfolio project for SOC 
 
 ---
