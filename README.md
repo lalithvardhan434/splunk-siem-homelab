@@ -22,15 +22,15 @@ Every component mirrors tools used in production SOC environments.
 MacBook Air M2
 ├── Splunk Enterprise (native) ← SIEM
 │     receives logs on port 9997
-│     IP: 192.168.29.191
+│     IP: SIEM_SERVER
 └── Kali Linux (UTM) ← ATTACKER
-      IP: 192.168.29.221
+      IP: KALI_ATTACKER
 
 Windows PC (VirtualBox)
 └── Windows 10 VM ← VICTIM
       Sysmon v15 (endpoint telemetry)
       Splunk Universal Forwarder → 192.168.29.191:9997
-      IP: 192.168.29.219
+      IP: WINDOWS_TARGET
 
 All machines on same WiFi subnet (192.168.29.x)
 ```
